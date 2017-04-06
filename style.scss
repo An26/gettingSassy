@@ -45,3 +45,15 @@ h1 {
         font-size: 32px;
     }
 }
+
+//text over laying the chatbot
+.directChat {
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    z-index: 100;
+    height: 100px;
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+}
